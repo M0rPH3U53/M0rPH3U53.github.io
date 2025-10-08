@@ -20,12 +20,6 @@ const Experience: React.FC = () => {
       company: 'Ministere de la justice',
       description: 'Stage au Tribunal Judiciaire & Palais de Justice de Paris'
     },
-    {
-      date: '2018 - 2019',
-      title: 'Administrateur Systèmes',
-      company: 'DataSafe Systems',
-      description: 'Administration de serveurs Linux/Windows, mise en place de politiques de sécurité, durcissement des systèmes d\'exploitation.'
-    }
   ];
 
   return (
