@@ -86,7 +86,7 @@ const About: React.FC = () => {
             <span className="stat-label">Entreprises accompagnées</span>
           </div>
           <div className="stat-item">
-            <span className="stat-number">5</span>
+            <span className="stat-number">3</span>
             <span className="stat-label">Années d'expérience</span>
           </div>
         </div>
