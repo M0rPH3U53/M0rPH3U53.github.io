@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
             <span className="typewriter-cursor">|</span>
           </p>
           <p className="text-dark-100 max-w-2xl mx-auto mb-8">
-            Actullement en Master Cybersécuriter pour devenir pentester.
+            Actuellement en Master Cybersécuriter pour devenir pentester
           </p>
           <div className="hero-buttons">
             <button 
