@@ -16,10 +16,7 @@ const About: React.FC = () => {
   ];
 
 const certifications = [
-    'OSCP - Offensive Security Certified Professional',
-    'CEH - Certified Ethical Hacker',
-    'CISSP - Certified Information Systems Security Professional',
-    'GPEN - GIAC Penetration Tester'
+    
   ];
   
     return (
