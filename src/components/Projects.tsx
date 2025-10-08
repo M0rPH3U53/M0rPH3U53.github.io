@@ -3,24 +3,24 @@ import React from 'react';
 const Projects: React.FC = () => {
   const projects = [
     {
-      title: 'WebVuln Scanner',
-      description: 'Scanner automatisé de vulnérabilités web développé en Python. Capable de détecter les failles OWASP Top 10 avec un taux de détection de 95%.',
+      title: 'metaWeb',
+      description: 'Automatisation des scanner de vulns avec génération de rapport pour chacun',
       tags: ['Python', 'Flask', 'SQLite', 'Requests', 'BeautifulSoup'],
       image: '🔍',
       demoLink: '#',
       codeLink: '#'
     },
     {
-      title: 'Network Recon Tool',
-      description: 'Outil de reconnaissance réseau combinant plusieurs techniques de scan et d\'énumération pour la phase de découverte.',
+      title: 'Massap',
+      description: 'Accélération de la découverte des ports en combinant Nmap & Masscan',
       tags: ['Python', 'Nmap', 'Scapy', 'Threading', 'JSON'],
       image: '🌐',
       demoLink: '#',
       codeLink: '#'
     },
     {
-      title: 'Phishing Simulation Platform',
-      description: 'Plateforme complète de simulation de phishing pour sensibiliser les employés aux attaques par email.',
+      title: 'fullEx',
+      description: 'Automatisation dexploits root Linux',
       tags: ['Node.js', 'React', 'MongoDB', 'Express', 'JWT'],
       image: '🎣',
       demoLink: '#',
@@ -92,10 +92,10 @@ const Projects: React.FC = () => {
         
         <div className="text-center mt-12">
           <p className="text-dark-100 mb-6">
-            Vous voulez voir plus de projets ? Consultez mon profil GitHub.
+            Pour voir plus de projet consultez mon GitHub.
           </p>
           <a 
-            href="https://github.com" 
+            href="https://github.com/M0rPH3U53" 
             target="_blank" 
             rel="noopener noreferrer"
             className="btn btn-outline"
