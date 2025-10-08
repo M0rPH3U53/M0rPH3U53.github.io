@@ -31,7 +31,6 @@ const Hero: React.FC = () => {
           <h1 className="hero-title">LOCATELLI Romain</h1>
           <p className="hero-subtitle">
             <span className="code-effect">$</span> {displayText}
-            <span className="typewriter-cursor">|</span>
           </p>
           <p className="text-dark-100 max-w-2xl mx-auto mb-8">
             Actuellement en Master Cybersécuriter pour devenir pentester
