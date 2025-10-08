@@ -1,27 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const Contact: React.FC = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
-  });
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log('Form submitted:', formData);
-    alert('Message envoyé ! Je vous répondrai dans les plus brefs délais.');
-    setFormData({ name: '', email: '', subject: '', message: '' });
-  };
-
   return (
     <section id="contact" className="section">
       <div className="container">
@@ -58,67 +37,6 @@ const Contact: React.FC = () => {
             <p className="text-primary-500">linkedin.com/in/johndoe</p>
           </div>
         </div>
-        
-        <form className="contact-form" onSubmit={handleSubmit}>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="form-group">
-              <label htmlFor="name">Nom complet</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                value={formData.name}
-                onChange={handleChange}
-                required
-                placeholder="Votre nom"
-              />
-            </div>
-            
-            <div className="form-group">
-              <label htmlFor="email">Email</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                required
-                placeholder="votre.email@exemple.com"
-              />
-            </div>
-          </div>
-          
-          <div className="form-group">
-            <label htmlFor="subject">Sujet</label>
-            <input
-              type="text"
-              id="subject"
-              name="subject"
-              value={formData.subject}
-              onChange={handleChange}
-              required
-              placeholder="Sujet de votre message"
-            />
-          </div>
-          
-          <div className="form-group">
-            <label htmlFor="message">Message</label>
-            <textarea
-              id="message"
-              name="message"
-              value={formData.message}
-              onChange={handleChange}
-              required
-              placeholder="Décrivez votre projet ou vos besoins en cybersécurité..."
-            />
-          </div>
-          
-          <div className="text-center">
-            <button type="submit" className="btn btn-primary">
-              Envoyer le message
-            </button>
-          </div>
-        </form>
       </div>
     </section>
   );
