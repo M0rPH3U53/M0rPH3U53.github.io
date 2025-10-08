@@ -5,7 +5,7 @@ const Skills: React.FC = () => {
     {
       category: 'Outils de Pentesting',
       skills: [
-        { name: 'Kali Linux', level: 'Expert', icon: '🐧' },
+        { name: 'ParrotOS', level: 'Expert', icon: '🐧' },
         { name: 'Metasploit', level: 'Avancé', icon: '🎯' },
         { name: 'Burp Suite', level: 'Expert', icon: '🔍' },
         { name: 'Nmap', level: 'Expert', icon: '🌐' },
