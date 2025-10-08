@@ -34,7 +34,8 @@ const Hero: React.FC = () => {
             <span className="typewriter-cursor">|</span>
           </p>
           <p className="text-dark-100 max-w-2xl mx-auto mb-8">
-            Actuellement en Master Cybersécuriter pour devenir pentester. 
+            Spécialisé dans les tests d'intrusion, l'audit de sécurité et la protection des systèmes d'information. 
+            Plus de 5 ans d'expérience dans le domaine de la cybersécurité.
           </p>
           <div className="hero-buttons">
             <button 
