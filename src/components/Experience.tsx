@@ -3,22 +3,22 @@ import React from 'react';
 const Experience: React.FC = () => {
   const experiences = [
     {
-      date: '2022 - Présent',
-      title: 'Senior Penetration Tester',
-      company: 'CyberSec Solutions',
-      description: 'Responsable de l\'équipe Red Team. Réalisation de tests d\'intrusion complexes pour des clients Fortune 500. Développement d\'outils personnalisés pour l\'automatisation des tests.'
+      date: '2023 - 2026',
+      title: 'Bachelor & Master Sécurité Informatique',
+      company: 'Ville de Paris',
+      description: 'Apprenti a la Ville de Paris'
     },
     {
-      date: '2020 - 2022',
-      title: 'Consultant en Cybersécurité',
-      company: 'SecureIT Consulting',
-      description: 'Tests d\'intrusion web et mobile, audits de sécurité. Accompagnement de PME et grandes entreprises dans leur mise en conformité RGPD et ISO 27001.'
+      date: '2021 - 2022',
+      title: 'BTS SIO - SISR',
+      company: 'Douane de Paris',
+      description: 'Stagiaire a Douane'
     },
     {
-      date: '2019 - 2020',
-      title: 'Analyste Sécurité Junior',
-      company: 'TechGuard Corp',
-      description: 'Monitoring de sécurité, analyse de logs, réponse aux incidents. Participation à l\'amélioration du SOC et mise en place d\'outils de détection.'
+      date: '2020 - 2021',
+      title: 'BAC PRO - SN RISC',
+      company: 'Ministere de la justice',
+      description: 'Stage au Tribunal Judiciaire & Palais de Justice de Paris'
     },
     {
       date: '2018 - 2019',
