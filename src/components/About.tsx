@@ -4,15 +4,13 @@ const About: React.FC = () => {
   const skills = [
     { name: 'ParrotOS', level: 5 },
     { name: 'Metasploit', level: 4 },
-    { name: 'Burp Suite', level: 5 },
     { name: 'Nmap', level: 5 },
-    { name: 'Python', level: 2 },
+    { name: 'NetExec', level: 4 },
     { name: 'Bash/PowerShell', level: 4 },
     { name: 'Wireshark', level: 4 },
     { name: 'John the Ripper', level: 3 },
     { name: 'SQLMap', level: 4 },
     { name: 'Aircrack-ng', level: 3 },
-    { name: 'Nessus', level: 4 }
   ];
 
   const certifications: string[] = [
