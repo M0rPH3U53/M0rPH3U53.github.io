@@ -1,8 +1,8 @@
 # A modifier
 
-experience : Experience.tsx --> mettre l'experience pro
+- experience : Experience.tsx --> mettre l'experience pro
 &nbsp;
-projet : Projects.tsx --> mettre les outils de mon github
+- projet : Projects.tsx --> mettre les outils de mon github
 &nbsp;
-competences : Skills.tsx --> a voir quoi enlever & quoi rajouter
+- competences : Skills.tsx --> a voir quoi enlever & quoi rajouter
 
