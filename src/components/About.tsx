@@ -6,7 +6,7 @@ const About: React.FC = () => {
     { name: 'Metasploit', level: 4 },
     { name: 'Burp Suite', level: 5 },
     { name: 'Nmap', level: 5 },
-    { name: 'Python', level: 4 },
+    { name: 'Python', level: 2 },
     { name: 'Bash/PowerShell', level: 4 },
     { name: 'Wireshark', level: 4 },
     { name: 'John the Ripper', level: 3 },
