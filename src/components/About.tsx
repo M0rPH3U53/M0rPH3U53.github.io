@@ -15,7 +15,7 @@ const About: React.FC = () => {
     { name: 'Nessus', level: 4 }
   ];
 
-const certifications: string[] = [
+  const certifications: string[] = [
     'OSCP - Offensive Security Certified Professional',
     'CEH - Certified Ethical Hacker',
     'CISSP - Certified Information Systems Security Professional',
