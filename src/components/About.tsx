@@ -2,11 +2,10 @@ import React from 'react';
 
 const About: React.FC = () => {
   const skills = [
-    { name: 'Kali Linux', level: 5 },
+    { name: 'ParrotOS', level: 5 },
     { name: 'Metasploit', level: 4 },
     { name: 'Burp Suite', level: 5 },
     { name: 'Nmap', level: 5 },
-    { name: 'OWASP', level: 4 },
     { name: 'Python', level: 4 },
     { name: 'Bash/PowerShell', level: 4 },
     { name: 'Wireshark', level: 4 },
@@ -16,14 +15,7 @@ const About: React.FC = () => {
     { name: 'Nessus', level: 4 }
   ];
 
-  const certifications = [
-    'OSCP - Offensive Security Certified Professional',
-    'CEH - Certified Ethical Hacker',
-    'CISSP - Certified Information Systems Security Professional',
-    'GPEN - GIAC Penetration Tester'
-  ];
-
-  return (
+    return (
     <section id="about" className="section">
       <div className="container">
         <div className="section-title">
