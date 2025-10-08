@@ -1,73 +1,48 @@
-# React + TypeScript + Vite
+# Portfolio Pentester - Expert en Cybersécurité
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio professionnel d'un expert en cybersécurité spécialisé dans les tests d'intrusion et l'audit de sécurité.
 
-Currently, two official plugins are available:
+## 🚀 Technologies utilisées
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React 19** avec TypeScript
+- **Tailwind CSS** pour le styling
+- **Vite** pour le développement et le build
+- **GitHub Pages** pour l'hébergement
 
-## React Compiler
+## 🛡️ Sections du portfolio
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Accueil** - Présentation et introduction
+- **À propos** - Parcours, certifications et statistiques
+- **Compétences** - Expertise technique détaillée
+- **Expérience** - Historique professionnel
+- **Projets** - Réalisations et projets personnels
+- **Contact** - Informations de contact
 
-## Expanding the ESLint configuration
+## 🔧 Installation et développement
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+```bash
+# Installation des dépendances
+npm install
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+# Lancement du serveur de développement
+npm run dev
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+# Build pour la production
+npm run build
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# Preview du build
+npm run preview
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📦 Déploiement
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Ce portfolio est automatiquement déployé sur GitHub Pages à l'adresse : 
+[https://m0rph3u53.github.io](https://m0rph3u53.github.io)
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🎨 Personnalisation
+
+Le portfolio utilise un thème sombre avec des couleurs inspirées du terminal (vert Matrix) et est entièrement responsive.
+
+## 📄 Licence
+
+Ce projet est sous licence MIT.
