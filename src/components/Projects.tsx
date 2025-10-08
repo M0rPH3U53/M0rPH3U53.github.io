@@ -26,30 +26,6 @@ const Projects: React.FC = () => {
       demoLink: '#',
       codeLink: '#'
     },
-    {
-      title: 'Crypto CTF Challenges',
-      description: 'Collection de défis cryptographiques créés pour des compétitions CTF, couvrant divers algorithmes et techniques.',
-      tags: ['Python', 'OpenSSL', 'RSA', 'AES', 'Hash Functions'],
-      image: '🔐',
-      demoLink: '#',
-      codeLink: '#'
-    },
-    {
-      title: 'Mobile App Security Tester',
-      description: 'Framework d\'analyse automatisée pour applications Android, incluant analyse statique et dynamique.',
-      tags: ['Python', 'Android SDK', 'Frida', 'APKTool', 'XML'],
-      image: '📱',
-      demoLink: '#',
-      codeLink: '#'
-    },
-    {
-      title: 'Log Analysis Dashboard',
-      description: 'Tableau de bord pour l\'analyse de logs de sécurité avec détection d\'anomalies basée sur ML.',
-      tags: ['Python', 'Elasticsearch', 'Kibana', 'Scikit-learn', 'Docker'],
-      image: '📊',
-      demoLink: '#',
-      codeLink: '#'
-    }
   ];
 
   return (
