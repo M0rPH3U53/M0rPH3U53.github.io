@@ -5,23 +5,19 @@ const Skills: React.FC = () => {
     {
       category: 'Outils de Pentesting',
       skills: [
-        { name: 'ParrotOS', level: 'Expert', icon: '🐧' },
+        { name: 'ParrotOS', level: 'Avancé', icon: '🐧' },
         { name: 'Metasploit', level: 'Avancé', icon: '🎯' },
-        { name: 'Burp Suite', level: 'Expert', icon: '🔍' },
-        { name: 'Nmap', level: 'Expert', icon: '🌐' },
-        { name: 'Wireshark', level: 'Avancé', icon: '📡' },
+        { name: 'Nmap', level: 'Avancé', icon: '🌐' },
+        { name: 'NetExec', level: 'Avancé', icon: '📡' },
         { name: 'SQLMap', level: 'Avancé', icon: '💉' }
       ]
     },
     {
       category: 'Langages & Scripts',
       skills: [
-        { name: 'Python', level: 'Avancé', icon: '🐍' },
-        { name: 'Bash/Shell', level: 'Avancé', icon: '💻' },
+        { name: 'Python', level: 'Intermédiaire', icon: '🐍' },
+        { name: 'Bash/Shell', level: 'Intermédiaire', icon: '💻' },
         { name: 'PowerShell', level: 'Intermédiaire', icon: '⚡' },
-        { name: 'JavaScript', level: 'Intermédiaire', icon: '🟨' },
-        { name: 'C/C++', level: 'Intermédiaire', icon: '⚙️' },
-        { name: 'Assembly', level: 'Débutant', icon: '🔧' }
       ]
     },
     {
@@ -29,23 +25,10 @@ const Skills: React.FC = () => {
       skills: [
         { name: 'Web Application Testing', level: 'Expert', icon: '🌐' },
         { name: 'Network Penetration', level: 'Avancé', icon: '🔗' },
-        { name: 'Reverse Engineering', level: 'Intermédiaire', icon: '🔍' },
-        { name: 'Social Engineering', level: 'Avancé', icon: '👥' },
         { name: 'Mobile Security', level: 'Intermédiaire', icon: '📱' },
         { name: 'Wireless Security', level: 'Avancé', icon: '📶' }
       ]
     },
-    {
-      category: 'Méthodologies',
-      skills: [
-        { name: 'OWASP Top 10', level: 'Expert', icon: '🛡️' },
-        { name: 'PTES', level: 'Avancé', icon: '📋' },
-        { name: 'NIST Framework', level: 'Avancé', icon: '📊' },
-        { name: 'MITRE ATT&CK', level: 'Avancé', icon: '🎯' },
-        { name: 'OSINT', level: 'Avancé', icon: '🔎' },
-        { name: 'Incident Response', level: 'Intermédiaire', icon: '🚨' }
-      ]
-    }
   ];
 
   const getLevelColor = (level: string) => {
