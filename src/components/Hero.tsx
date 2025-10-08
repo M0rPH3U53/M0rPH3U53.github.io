@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
     <section id="home" className="hero">
       <div className="container">
         <div className="hero-content animate-fade-in-up">
-          <h1 className="hero-title">LOCATELLI Romain</h1>
+          <h1 className="hero-title">John Doe</h1>
           <p className="hero-subtitle">
             <span className="code-effect">$</span> {displayText}
             <span className="typewriter-cursor">|</span>
