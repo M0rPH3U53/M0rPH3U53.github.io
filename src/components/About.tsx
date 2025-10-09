@@ -9,7 +9,6 @@ const About: React.FC = () => {
     { name: 'Bash', level: 4 },
     { name: 'Wireshark', level: 4 },
     { name: 'John the Ripper', level: 3 },
-    { name: 'SQLMap', level: 4 },
     { name: 'Aircrack-ng', level: 3 },
   ];
 
@@ -34,7 +33,7 @@ const About: React.FC = () => {
               Anciennement technicien de maintenance , j'ai decider de faire une reconversion professionelle dans la cybersecurité.
             </p>
             <p className="text-dark-100 mb-8">
-              Apres 8 ans dans le monde du travaille , j'ai repris mes etudes pour en faire mon metier.
+              Apres 8 ans dans le monde du travaille , j'ai repris mes etudes dans le domaine de la securité informatique pour en faire mon metier.
             </p>
             
             <h3 className="text-2xl font-semibold text-primary-500 mb-4">Certifications</h3>
