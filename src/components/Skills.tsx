@@ -6,7 +6,7 @@ const Skills: React.FC = () => {
       category: 'Outils de Pentesting',
       icon: '🧰',
       skills: [
-        { name: 'Metasploit', level: 'Avancé', icon: '🛡️' },
+        { name: 'Metasploit', icon: '🛡️' },
         { name: 'Nmap', level: 'Avancé', icon: '👁️' },
         { name: 'NetExec', level: 'Avancé', icon: '🖥️' },
         { name: 'Enum4linux', level: 'Avancé', icon: '📂' },
