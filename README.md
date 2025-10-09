@@ -1,9 +1,7 @@
 # A modifier
 
 - experience : Experience.tsx --> mettre l'experience pro
-&nbsp;
-- projet : Projects.tsx --> mettre les outils de mon github
-&nbsp;
+- projet : Projects.tsx --> mettre les outils de mon github & lien & code diretc des scripts
 - competences : Skills.tsx --> a voir quoi enlever & quoi rajouter
 - enlever --> certifs
 
