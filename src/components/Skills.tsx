@@ -54,10 +54,6 @@ const Skills: React.FC = () => {
       <div className="container">
         <div className="section-title">
           <h2>Compétences Techniques</h2>
-          <p className="text-dark-100 max-w-2xl mx-auto">
-            Expertise approfondie en cybersécurité avec une spécialisation dans les tests d'intrusion 
-            et l'évaluation de la sécurité des systèmes d'information.
-          </p>
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
