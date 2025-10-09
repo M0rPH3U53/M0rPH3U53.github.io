@@ -30,10 +30,10 @@ const Hero: React.FC = () => {
         <div className="hero-content animate-fade-in-up">
           <h1 className="hero-title">LOCATELLI Romain</h1>
           <p className="hero-subtitle">
-            <span className="code-effect">#</span> {displayText}
+            <span className="code-effect">$</span> {displayText}
           </p>
           <p className="text-dark-100 max-w-2xl mx-auto mb-8">
-            Actuellement en Master Cybersécurité pour devenir pentester
+            Actuellement en derniére année de Master Cybersécurité
           </p>
           <div className="hero-buttons">
             <button 
