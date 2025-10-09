@@ -5,19 +5,19 @@ const Experience: React.FC = () => {
     {
       date: '2023 - 2026',
       title: 'Bachelor & Master Sécurité Informatique',
-      company: 'Ville de Paris',
+      company: 'ESGI - Ville de Paris',
       description: 'Apprenti a la Ville de Paris'
     },
     {
       date: '2021 - 2022',
       title: 'BTS SIO - SISR',
-      company: 'Douane de Paris',
-      description: 'Stagiaire a Douane'
+      company: 'Greta - Douane de Paris',
+      description: 'Stage a la Douane'
     },
     {
       date: '2020 - 2021',
       title: 'BAC PRO - SN RISC',
-      company: 'Ministere de la justice',
+      company: 'Greta - Ministere de la justice',
       description: 'Stage au Tribunal Judiciaire & Palais de Justice de Paris'
     },
   ];
