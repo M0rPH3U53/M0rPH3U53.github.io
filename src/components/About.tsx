@@ -68,20 +68,20 @@ const About: React.FC = () => {
 
         <div className="stats-grid">
           <div className="stat-item">
-            <span className="stat-number">50+</span>
-            <span className="stat-label">Tests d'intrusion réalisés</span>
+            <span className="stat-number">BAC</span>
+            <span className="stat-label">reseau</span>
           </div>
           <div className="stat-item">
-            <span className="stat-number">200+</span>
-            <span className="stat-label">Vulnérabilités découvertes</span>
+            <span className="stat-number">BTS</span>
+            <span className="stat-label">systeme & reseau</span>
           </div>
           <div className="stat-item">
-            <span className="stat-number">30+</span>
-            <span className="stat-label">Entreprises accompagnées</span>
+            <span className="stat-number">License</span>
+            <span className="stat-label">sécurité informatique</span>
           </div>
           <div className="stat-item">
-            <span className="stat-number">3</span>
-            <span className="stat-label">Années d'expérience</span>
+            <span className="stat-number">Master</span>
+            <span className="stat-label">sécurité informatique</span>
           </div>
         </div>
       </div>
