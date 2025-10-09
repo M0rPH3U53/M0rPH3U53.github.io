@@ -4,12 +4,14 @@ const Skills: React.FC = () => {
   const technicalSkills = [
     {
       category: 'Outils de Pentesting',
-      icon: '🛠️',
+      icon: '🧰',
       skills: [
-        { name: 'Metasploit', level: 'Avancé', icon: '🎯' },
-        { name: 'Nmap', level: 'Avancé', icon: '🌐' },
-        { name: 'NetExec', level: 'Avancé', icon: '📡' },
-        { name: 'SQLMap', level: 'Avancé', icon: '💉' }
+        { name: 'Metasploit', level: 'Avancé', icon: '🛡️' },
+        { name: 'Nmap', level: 'Avancé', icon: '👁️' },
+        { name: 'NetExec', level: 'Avancé', icon: '🖥️' },
+        { name: 'Enum4linux', level: 'Avancé', icon: '📂' }
+        { name: 'Gobuster', level: 'Avancé', icon: '👊' }
+        { name: 'LinPeas', level: 'Avancé', icon: '🤖' }
       ]
     },
     {
@@ -17,13 +19,13 @@ const Skills: React.FC = () => {
       icon: '💻',
       skills: [
         { name: 'Python', level: 'Intermédiaire', icon: '🐍' },
-        { name: 'Bash', level: 'Intermédiaire', icon: '💻' },
+        { name: 'Bash', level: 'Intermédiaire', icon: '🐚' },
         { name: 'PowerShell', level: 'Intermédiaire', icon: '⚡' },
       ]
     },
     {
       category: 'OS & Firmware',
-      icon: '🎓',
+      icon: '⚙️',
       skills: [
         { name: 'ParrotOS', level: 'Avancé', icon: '🐧' },
         { name: 'Debian', level: 'Avancé', icon: '🐧' },
