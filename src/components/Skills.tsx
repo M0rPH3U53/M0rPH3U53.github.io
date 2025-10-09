@@ -5,7 +5,6 @@ const Skills: React.FC = () => {
     {
       category: 'Outils de Pentesting',
       skills: [
-        { name: 'ParrotOS', level: 'Avancé', icon: '🐧' },
         { name: 'Metasploit', level: 'Avancé', icon: '🎯' },
         { name: 'Nmap', level: 'Avancé', icon: '🌐' },
         { name: 'NetExec', level: 'Avancé', icon: '📡' },
@@ -16,17 +15,17 @@ const Skills: React.FC = () => {
       category: 'Langages & Scripts',
       skills: [
         { name: 'Python', level: 'Intermédiaire', icon: '🐍' },
-        { name: 'Bash/Shell', level: 'Intermédiaire', icon: '💻' },
+        { name: 'Bash', level: 'Intermédiaire', icon: '💻' },
         { name: 'PowerShell', level: 'Intermédiaire', icon: '⚡' },
       ]
     },
     {
-      category: 'Domaines d\'expertise',
+      category: 'OS & Firmware',
       skills: [
-        { name: 'Web Application Testing', level: 'Expert', icon: '🌐' },
-        { name: 'Network Penetration', level: 'Avancé', icon: '🔗' },
-        { name: 'Mobile Security', level: 'Intermédiaire', icon: '📱' },
-        { name: 'Wireless Security', level: 'Avancé', icon: '📶' }
+        { name: 'ParrotOS', level: 'Avancé', icon: '🐧' },
+        { name: 'Debian', level: 'Avancé', icon: '🐧' },
+        { name: 'Kali NetHunter', level: 'Avancé', icon: '📱' },
+        { name: 'OpenWRT', level: 'Avancé', icon: '📶' }
       ]
     },
   ];
