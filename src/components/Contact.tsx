@@ -6,10 +6,6 @@ const Contact: React.FC = () => {
       <div className="container">
         <div className="section-title">
           <h2>Contact</h2>
-          <p className="text-dark-100 max-w-2xl mx-auto">
-            Vous avez un projet de sécurité ou souhaitez discuter de vos besoins ? 
-            N'hésitez pas à me contacter !
-          </p>
         </div>
         
         <div className="contact-info">
