@@ -31,8 +31,8 @@ const Skills: React.FC = () => {
       category: 'OS & Firmware',
       icon: '⚙️',
       skills: [
-        { name: 'ParrotOS', level: 'Avancé', icon: '🐧' },
-        { name: 'Debian', level: 'Avancé', icon: '🐧' },
+        { name: 'ParrotOS', level: 'Avancé', icon: '🦜' },
+        { name: 'Debian', level: 'Avancé', icon: '🌀' },
         { name: 'Kali NetHunter', level: 'Avancé', icon: '📱' },
         { name: 'OpenWRT', level: 'Avancé', icon: '📶' },
       ]
