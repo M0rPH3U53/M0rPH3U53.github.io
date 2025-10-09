@@ -4,6 +4,7 @@ const Skills: React.FC = () => {
   const technicalSkills = [
     {
       category: 'Outils de Pentesting',
+      icon: '🛠️',
       skills: [
         { name: 'Metasploit', level: 'Avancé', icon: '🎯' },
         { name: 'Nmap', level: 'Avancé', icon: '🌐' },
@@ -13,6 +14,7 @@ const Skills: React.FC = () => {
     },
     {
       category: 'Langages & Scripts',
+      icon: '💻',
       skills: [
         { name: 'Python', level: 'Intermédiaire', icon: '🐍' },
         { name: 'Bash', level: 'Intermédiaire', icon: '💻' },
@@ -21,6 +23,7 @@ const Skills: React.FC = () => {
     },
     {
       category: 'OS & Firmware',
+      icon: '🎓',
       skills: [
         { name: 'ParrotOS', level: 'Avancé', icon: '🐧' },
         { name: 'Debian', level: 'Avancé', icon: '🐧' },
@@ -56,7 +59,7 @@ const Skills: React.FC = () => {
             <div key={categoryIndex} className="card">
               <h3 className="text-2xl font-semibold text-primary-500 mb-6 flex items-center gap-3">
                 <span className="w-8 h-8 bg-primary-500/20 rounded-lg flex items-center justify-center">
-                  {category.skills[0].icon}
+                  {category.icon}
                 </span>
                 {category.category}
               </h3>
