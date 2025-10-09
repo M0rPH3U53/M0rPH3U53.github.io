@@ -20,7 +20,7 @@ const Projects: React.FC = () => {
     },
     {
       title: 'fullEx',
-      description: 'Automatisation dexploits root Linux',
+      description: 'Automatisation d/exploits root Linux',
       tags: ['LinPeas', 'Binaires', 'LaZagne'],
       image: '/fullex.png',
       repoLink: 'https://github.com/M0rPH3U53/fullEx',
@@ -34,7 +34,7 @@ const Projects: React.FC = () => {
         <div className="section-title">
           <h2>Projets</h2>
           <p className="text-dark-100 max-w-2xl mx-auto">
-            Découvrez quelques-uns de mes projets open source.
+             Voici quelques-uns de mes projets.
           </p>
         </div>
         
@@ -68,7 +68,7 @@ const Projects: React.FC = () => {
         
         <div className="text-center mt-12">
           <p className="text-dark-100 mb-6">
-            Pour voir plus de projet consultez mon GitHub.
+            Pour en savoir plus consultez mon GitHub.
           </p>
           <a 
             href="https://github.com/M0rPH3U53" 
