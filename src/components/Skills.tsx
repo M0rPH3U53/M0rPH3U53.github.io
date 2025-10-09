@@ -82,25 +82,10 @@ const Skills: React.FC = () => {
         <div className="mt-16">
           <h3 className="text-2xl font-semibold text-center text-primary-500 mb-8">Certifications & Formations</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="card text-center">
-              <div className="text-3xl mb-3">🏆</div>
-              <h4 className="font-semibold text-white mb-2">OSCP</h4>
-              <p className="text-sm text-dark-100">Offensive Security Certified Professional</p>
-            </div>
-            <div className="card text-center">
-              <div className="text-3xl mb-3">🎖️</div>
-              <h4 className="font-semibold text-white mb-2">CEH</h4>
-              <p className="text-sm text-dark-100">Certified Ethical Hacker</p>
-            </div>
-            <div className="card text-center">
+            <div className="card text-center">           
               <div className="text-3xl mb-3">🛡️</div>
-              <h4 className="font-semibold text-white mb-2">CISSP</h4>
-              <p className="text-sm text-dark-100">Certified Information Systems Security Professional</p>
-            </div>
-            <div className="card text-center">
-              <div className="text-3xl mb-3">🎯</div>
-              <h4 className="font-semibold text-white mb-2">GPEN</h4>
-              <p className="text-sm text-dark-100">GIAC Penetration Tester</p>
+              <h4 className="font-semibold text-white mb-2">CPTS</h4>
+              <p className="text-sm text-dark-100"> Certified Penetration Testing Specialist</p>         
             </div>
           </div>
         </div>
