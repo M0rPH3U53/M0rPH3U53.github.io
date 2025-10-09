@@ -9,18 +9,10 @@ const Footer: React.FC = () => {
             &lt;/PenTester&gt;
           </a>
         </div>
-        
-        <div className="flex justify-center gap-6 mb-6 flex-wrap">
+
+        <div className="flex justify-center items-center gap-6 mb-6 flex-wrap">
           <a 
-            href="https://linkedin.com" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="text-dark-100 hover:text-primary-500 transition-colors duration-300"
-          >
-            LinkedIn
-          </a>
-          <a 
-            href="https://github.com" 
+            href="https://github.com/m0rph3u53" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-dark-100 hover:text-primary-500 transition-colors duration-300"
@@ -28,15 +20,7 @@ const Footer: React.FC = () => {
             GitHub
           </a>
           <a 
-            href="https://twitter.com" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="text-dark-100 hover:text-primary-500 transition-colors duration-300"
-          >
-            Twitter
-          </a>
-          <a 
-            href="mailto:john.doe@pentester.fr"
+            href="mailto:rlocatelli@myges.fr"
             className="text-dark-100 hover:text-primary-500 transition-colors duration-300"
           >
             Email
@@ -54,7 +38,7 @@ const Footer: React.FC = () => {
         <hr className="border-none h-px bg-dark-200 my-6" />
         
         <p className="text-dark-50 text-sm mb-2">
-          © {new Date().getFullYear()} John Doe - Expert en Cybersécurité. Tous droits réservés.
+          © {new Date().getFullYear()} Romain Locatelli - Expert en Cybersécurité. Tous droits réservés.
         </p>
         
         <p className="text-dark-50 text-xs italic">
