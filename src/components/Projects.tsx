@@ -20,7 +20,7 @@ const Projects: React.FC = () => {
     },
     {
       title: 'fullEx',
-      description: 'Automatisation d''exploits root Linux',
+      description: 'Automatisation d"exploits root Linux',
       tags: ['LinPeas', 'Binaires', 'LaZagne'],
       image: '/fullex.png',
       repoLink: 'https://github.com/M0rPH3U53/fullEx',
