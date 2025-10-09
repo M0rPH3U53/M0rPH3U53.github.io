@@ -64,29 +64,11 @@ const About: React.FC = () => {
               ))}
             </div>
           </div>
-          </div>
-
-        <div className="stats-grid">
-          <div className="stat-item">
-            <span className="stat-number">BAC</span>
-            <span className="stat-label">reseau</span>
-          </div>
-          <div className="stat-item">
-            <span className="stat-number">BTS</span>
-            <span className="stat-label">systeme & reseau</span>
-          </div>
-          <div className="stat-item">
-            <span className="stat-number">License</span>
-            <span className="stat-label">sécurité informatique</span>
-          </div>
-          <div className="stat-item">
-            <span className="stat-number">Master</span>
-            <span className="stat-label">sécurité informatique</span>
-          </div>
         </div>
       </div>
     </section>
   );
 };
+
 
 export default About;
