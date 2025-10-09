@@ -12,6 +12,10 @@ const Skills: React.FC = () => {
         { name: 'Enum4linux', level: 'Avancé', icon: '📂' },
         { name: 'Gobuster', level: 'Avancé', icon: '👊' },
         { name: 'LinPeas', level: 'Avancé', icon: '🤖' },
+        { name: 'Wireshark', level: 'Avancé', icon: '🦈' },
+        { name: 'Aircrack-ng', level: 'Avancé', icon: '📶' },
+        { name: 'Wpscan', level: 'Avancé', icon: '🔍' },
+        { name: 'John the Ripper', level: 'Avancé', icon: '🧨' },
       ]
     },
     {
@@ -19,7 +23,7 @@ const Skills: React.FC = () => {
       icon: '💻',
       skills: [
         { name: 'Python', level: 'Intermédiaire', icon: '🐍' },
-        { name: 'Bash', level: 'Intermédiaire', icon: '🐚' },
+        { name: 'Bash', level: 'Intermédiaire', icon: '🧾' },
         { name: 'PowerShell', level: 'Intermédiaire', icon: '⚡' },
       ]
     },
