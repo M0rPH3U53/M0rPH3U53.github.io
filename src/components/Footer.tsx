@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
         </p>
         
         <p className="text-dark-50 text-xs italic">
-          "La sécurité n'est pas un produit, mais un processus" - Bruce Schneier
+          "Mon objectif premier du hacking était la curiosité intellectuelle, la séduction de l’aventure." - Kevin Mitnick
         </p>
       </div>
     </footer>
