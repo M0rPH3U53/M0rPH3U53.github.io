@@ -6,7 +6,7 @@ const Projects: React.FC = () => {
       title: 'metaWeb',
       description: 'Automatisation des scanner de vulns avec génération de rapport pour chacun',
       tags: ['Nuclei', 'Nikto', 'Wapiti', 'Skipfish', 'ZAP'],
-      image: 'https://github.com/user-attachments/assets/794ab03e-834b-4c7f-b6fd-407c2b281135',
+      image: '../../public/metaweb.jpeg',
       repoLink: 'https://github.com/M0rPH3U53/metaWeb',
       codeLink: 'https://github.com/M0rPH3U53/metaWeb/blob/main/metaWeb.sh'
     },
@@ -14,7 +14,7 @@ const Projects: React.FC = () => {
       title: 'Massap',
       description: 'Accélération de la découverte des ports en combinant Nmap & Masscan',
       tags: ['Masscan', 'Nmap',],
-      image: 'https://github.com/user-attachments/assets/ee9c7993-f1b7-4745-b7e3-e3ab187500e1',
+      image: '../../public/massap.jpeg',
       repoLink: 'https://github.com/M0rPH3U53/Massap',
       codeLink: 'https://github.com/M0rPH3U53/Massap/blob/main/massap.sh'
     },
@@ -22,7 +22,7 @@ const Projects: React.FC = () => {
       title: 'fullEx',
       description: 'Automatisation dexploits root Linux',
       tags: ['LinPeas', 'Binaires', 'LaZagne'],
-      image: 'https://github.com/user-attachments/assets/c947aebb-593b-4027-bc50-ac87663ff387',
+      image: '../../public/fullEx.png',
       repoLink: 'https://github.com/M0rPH3U53/fullEx',
       codeLink: 'https://github.com/M0rPH3U53/fullEx/blob/main/fullEx.sh'
     },
@@ -42,7 +42,7 @@ const Projects: React.FC = () => {
           {projects.map((project, index) => (
             <div key={index} className="card">
               <div className="project-image">
-                <span className="text-5xl">{project.image}</span>
+                <img src={project.image} alt={project.title} className="w-full h-full object-cover" />
               </div>
               
               <h3 className="text-xl font-semibold text-primary-500 mb-3">{project.title}</h3>
