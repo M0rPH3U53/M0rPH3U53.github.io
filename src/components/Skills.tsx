@@ -23,7 +23,7 @@ const Skills: React.FC = () => {
       icon: '💻',
       skills: [
         { name: 'Python', level: 'Intermédiaire', icon: '🐍' },
-        { name: 'Bash', level: 'Intermédiaire', icon: '🧾' },
+        { name: 'Bash', level: 'Intermédiaire', icon: '💲' },
         { name: 'PowerShell', level: 'Intermédiaire', icon: '⚡' },
       ]
     },
