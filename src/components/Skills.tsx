@@ -9,9 +9,9 @@ const Skills: React.FC = () => {
         { name: 'Metasploit', level: 'Avancé', icon: '🛡️' },
         { name: 'Nmap', level: 'Avancé', icon: '👁️' },
         { name: 'NetExec', level: 'Avancé', icon: '🖥️' },
-        { name: 'Enum4linux', level: 'Avancé', icon: '📂' }
-        { name: 'Gobuster', level: 'Avancé', icon: '👊' }
-        { name: 'LinPeas', level: 'Avancé', icon: '🤖' }
+        { name: 'Enum4linux', level: 'Avancé', icon: '📂' },
+        { name: 'Gobuster', level: 'Avancé', icon: '👊' },
+        { name: 'LinPeas', level: 'Avancé', icon: '🤖' },
       ]
     },
     {
@@ -30,7 +30,7 @@ const Skills: React.FC = () => {
         { name: 'ParrotOS', level: 'Avancé', icon: '🐧' },
         { name: 'Debian', level: 'Avancé', icon: '🐧' },
         { name: 'Kali NetHunter', level: 'Avancé', icon: '📱' },
-        { name: 'OpenWRT', level: 'Avancé', icon: '📶' }
+        { name: 'OpenWRT', level: 'Avancé', icon: '📶' },
       ]
     },
   ];
