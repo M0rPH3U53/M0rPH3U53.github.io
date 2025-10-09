@@ -6,7 +6,7 @@ const About: React.FC = () => {
     { name: 'Metasploit', level: 4 },
     { name: 'Nmap', level: 5 },
     { name: 'NetExec', level: 4 },
-    { name: 'Bash/PowerShell', level: 4 },
+    { name: 'Bash', level: 4 },
     { name: 'Wireshark', level: 4 },
     { name: 'John the Ripper', level: 3 },
     { name: 'SQLMap', level: 4 },
@@ -31,14 +31,10 @@ const About: React.FC = () => {
           <div>
             <h3 className="text-2xl font-semibold text-primary-500 mb-4">Mon parcours</h3>
             <p className="text-dark-100 mb-4">
-              Passionné par la cybersécurité depuis plus de 5 ans, je me spécialise dans les tests d'intrusion 
-              et l'audit de sécurité. Mon approche méthodique et ma curiosité naturelle me permettent d'identifier 
-              les failles de sécurité les plus subtiles.
+              Anciennement technicien de maintenance , j'ai decider de faire une reconversion professionelle dans la cybersecurité.
             </p>
             <p className="text-dark-100 mb-8">
-              J'accompagne les entreprises dans la sécurisation de leurs systèmes d'information en réalisant 
-              des audits complets, des tests d'intrusion ciblés et en proposant des recommandations concrètes 
-              pour améliorer leur posture de sécurité.
+              Apres 8 ans dans le monde du travaille , j'ai repris mes etudes pour en faire mon metier.
             </p>
             
             <h3 className="text-2xl font-semibold text-primary-500 mb-4">Certifications</h3>
