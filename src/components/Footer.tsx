@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
       <div className="container">
         <div className="mb-6">
           <a href="#home" className="logo text-xl">
-            &lt;/PenTester&gt;
+            &lt;/Auditeur&gt;
           </a>
         </div>
 
@@ -48,8 +48,6 @@ const Footer: React.FC = () => {
           <span className="tag">Pentesting</span>
           <span className="tag">Cybersécurité</span>
           <span className="tag">Audit</span>
-          <span className="tag">Red Team</span>
-          <span className="tag">OWASP</span>
         </div>
         
         <hr className="border-none h-px bg-dark-200 my-6" />
