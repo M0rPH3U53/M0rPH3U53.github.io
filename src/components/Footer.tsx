@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
       <div className="container">
         <div className="mb-6">
           <a href="#home" className="logo text-xl">
-            &lt;/Auditeur&gt;
+            &lt;/PenTester&gt;
           </a>
         </div>
 
