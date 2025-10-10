@@ -30,12 +30,8 @@ const About: React.FC = () => {
           <div>
             <h3 className="text-2xl font-semibold text-primary-500 mb-4">Mon parcours</h3>
             <p className="text-dark-100 mb-4">
-              Anciennement technicien de maintenance , j'ai decider de faire une reconversion professionelle dans la cybersecurité.
-            </p>
-            <p className="text-dark-100 mb-8">
-              Apres 8 ans dans le monde du travaille , j'ai repris mes etudes dans le domaine de la securité informatique pour en faire mon metier.
-            </p>
-            
+              Apres 9 ans dans le monde du travaille , je me suis tournner vers une reconversion professionelle dans la cybersecurité.
+            </p>          
             <h3 className="text-2xl font-semibold text-primary-500 mb-4">Certifications</h3>
             <ul className="space-y-2">
               {certifications.map((cert, index) => (
