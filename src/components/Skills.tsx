@@ -9,13 +9,11 @@ const Skills: React.FC = () => {
         { name: 'Metasploit',level: 'Avancé', icon: '🛡️' },
         { name: 'Nmap', level: 'Avancé', icon: '👁️' },
         { name: 'NetExec', level: 'Avancé', icon: '🖥️' },
-        { name: 'Enum4linux', level: 'Avancé', icon: '📂' },
         { name: 'Gobuster', level: 'Avancé', icon: '👊' },
         { name: 'LinPeas', level: 'Avancé', icon: '🤖' },
         { name: 'Wireshark', level: 'Avancé', icon: '🦈' },
         { name: 'Aircrack-ng', level: 'Avancé', icon: '📶' },
         { name: 'Wpscan', level: 'Avancé', icon: '🔍' },
-        { name: 'John the Ripper', level: 'Avancé', icon: '🧨' },
       ]
     },
     {
