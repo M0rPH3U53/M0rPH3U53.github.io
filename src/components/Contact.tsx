@@ -17,8 +17,12 @@ const Contact: React.FC = () => {
           
           <div className="contact-item">
             <div className="contact-icon">📱</div>
-            <h3 className="text-white font-semibold mb-2">Téléphone</h3>
-            <p className="text-primary-500">+33 6 12 34 56 78</p>
+            <h3 className="text-white font-semibold mb-2">Olvid</h3>
+            <p className="text-primary-500">
+              <a href="https://invitation.olvid.io/#AwAAAGoAAAAAWmh0dHBzOi8vc2VydmVyLm9sdmlkLmlvAABZmNplqg6tlyQFGi7FPuIMG2Dof70x_Jt7BCG_lMeDfQELhpyqiMthwNf2OUhz394XfazJJcM1SDhDpxsgGz1-XQAAAAAGUm9tYWlu" className="text-primary-500">
+                Invitation Olvid
+              </a>
+            </p>
           </div>
           
           <div className="contact-item">
