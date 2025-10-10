@@ -37,6 +37,14 @@ const Skills: React.FC = () => {
         { name: 'OpenWRT', level: 'Avancé', icon: '📶' },
       ]
     },
+    {
+      category: 'Virtualisation',
+      icon: '📦',
+      skills: [
+        { name: 'Virtualbox', level: 'Avancé', icon: '🗳️' },
+        { name: 'KVM', level: 'Intermédiaire', icon: '🐧' },
+      ]
+    },
   ];
 
   const getLevelColor = (level: string) => {
