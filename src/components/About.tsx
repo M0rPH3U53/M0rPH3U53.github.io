@@ -2,14 +2,15 @@ import React from 'react';
 
 const About: React.FC = () => {
   const skills = [
-    { name: 'ParrotOS', level: 5 },
+    { name: 'ParrotOS', level: 4 },
     { name: 'Metasploit', level: 4 },
-    { name: 'Nmap', level: 5 },
+    { name: 'Nmap', level: 4 },
     { name: 'NetExec', level: 4 },
-    { name: 'Bash', level: 4 },
-    { name: 'Wireshark', level: 4 },
-    { name: 'John the Ripper', level: 3 },
+    { name: 'Bash', level: 3 },
+    { name: 'Virtualbox', level: 4 },
+    { name: 'Kali NetHunter', level: 5 },
     { name: 'Aircrack-ng', level: 3 },
+    { name: 'Enum4linux-ng', level: 3 },
   ];
 
   const certifications: string[] = [
