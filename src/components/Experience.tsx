@@ -11,13 +11,13 @@ const Experience: React.FC = () => {
     {
       date: '2021 - 2022',
       title: 'BTS SIO - SISR',
-      company: 'Greta - Direction générale des Douanes et Droits indirects',
+      company: 'Greta - Direction Générale des Douanes et Droits indirects',
       description: 'Stage a la DGDDI'
     },
     {
       date: '2020 - 2021',
       title: 'BAC PRO - SN RISC',
-      company: 'Greta - Ministere de la justice',
+      company: 'Greta - Ministère  de la justice',
       description: 'Stage au Tribunal Judiciaire & Palais de Justice de Paris'
     },
   ];
