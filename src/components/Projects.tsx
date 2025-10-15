@@ -4,7 +4,7 @@ const Projects: React.FC = () => {
   const projects = [
     {
       title: 'metaWeb',
-      description: 'Automatisation des scanner de vulns avec génération de rapport pour chaque outils',
+      description: 'Automatisation des scanner de vulns web avec génération de rapport pour chaque outils',
       tags: ['Nuclei', 'Nikto', 'Wapiti', 'Skipfish', 'ZAP'],
       image: '/metaweb.jpeg',
       repoLink: 'https://github.com/M0rPH3U53/metaWeb',
