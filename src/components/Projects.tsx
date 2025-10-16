@@ -12,7 +12,7 @@ const Projects: React.FC = () => {
     },
     {
       title: 'Massap',
-      description: 'Accélération de la découverte des ports en combinant Nmap & Masscan',
+      description: 'Automatisation de scan de port avec génération de rapport nmap',
       tags: ['Masscan', 'Nmap',],
       image: '/massap.jpeg',
       repoLink: 'https://github.com/M0rPH3U53/Massap',
