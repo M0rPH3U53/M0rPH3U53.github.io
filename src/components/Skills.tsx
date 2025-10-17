@@ -89,7 +89,9 @@ const Skills: React.FC = () => {
           ))}
         </div>
 
+        
         {/* Section Certifications en bas */}
+        {/*
         <div className="mt-16">
           <h3 className="text-2xl font-semibold text-center text-primary-500 mb-8">Certifications</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-6">
@@ -104,5 +106,6 @@ const Skills: React.FC = () => {
     </section>
   );
 };
+*/}
 
 export default Skills;
