@@ -33,9 +33,6 @@ const Projects: React.FC = () => {
       <div className="container">
         <div className="section-title">
           <h2>Projets</h2>
-          <p className="text-dark-100 max-w-2xl mx-auto">
-             Voici quelques-uns de mes projets.
-          </p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
