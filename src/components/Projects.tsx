@@ -64,9 +64,6 @@ const Projects: React.FC = () => {
         </div>
         
         <div className="text-center mt-12">
-          <p className="text-dark-100 mb-6">
-            Pour en savoir plus consultez mon GitHub.
-          </p>
           <a 
             href="https://github.com/M0rPH3U53" 
             target="_blank" 
