@@ -98,7 +98,8 @@ const Skills: React.FC = () => {
             <div className="card text-center">           
               <div className="text-3xl mb-3">🛡️</div>
               <h4 className="font-semibold text-white mb-2">CPTS</h4>
-              <p className="text-sm text-dark-100">Certified Penetration Testing Specialist</p>         
+              <p className="text-sm text-dark-100">Certified Penetration Testing Specialist</p>
+              */}
             </div>
           </div>
         </div>
@@ -106,6 +107,6 @@ const Skills: React.FC = () => {
     </section>
   );
 };
-*/}
+
 
 export default Skills;
