@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
             GitHub
             </a>
             <a 
-            href="mailto:rlocatelli@myges.fr"
+            href="mailto:locatelli.r@protonmail.ch"
             className="text-dark-100 hover:text-primary-500 transition-colors duration-300 flex items-center gap-2"
             >
             <svg
