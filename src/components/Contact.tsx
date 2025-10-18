@@ -12,7 +12,7 @@ const Contact: React.FC = () => {
           <div className="contact-item">
             <div className="contact-icon">📧</div>
             <h3 className="text-white font-semibold mb-2">Email</h3>
-            <p className="text-primary-500">rlocatelli@myges.fr</p>
+            <p className="text-primary-500">locatelli.r@protonmail.ch</p>
           </div>
           
           <div className="contact-item">
