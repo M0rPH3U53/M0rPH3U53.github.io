@@ -16,7 +16,9 @@ const Contact: React.FC = () => {
           </div>
           
           <div className="contact-item">
-            <div className="contact-icon">/Olvid01.png</div>
+            <div className="contact-icon">
+            img src="/Olvid01.png" alt="Olvid" style
+            </div>
             <h3 className="text-white font-semibold mb-2">Olvid</h3>
             <p className="text-primary-500">
               <a href="https://invitation.olvid.io/#AwAAAGoAAAAAWmh0dHBzOi8vc2VydmVyLm9sdmlkLmlvAABZmNplqg6tlyQFGi7FPuIMG2Dof70x_Jt7BCG_lMeDfQELhpyqiMthwNf2OUhz394XfazJJcM1SDhDpxsgGz1-XQAAAAAGUm9tYWlu" className="text-primary-500">
