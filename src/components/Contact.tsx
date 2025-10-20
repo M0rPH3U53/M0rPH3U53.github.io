@@ -11,7 +11,7 @@ const Contact: React.FC = () => {
         <div className="contact-info">
           <div className="contact-item">
             <div className="contact-icon">
-            <img src="/proton.png" alt="Email Contact Icon" />
+            <img src="/Proton.png" alt="Email Contact Icon" />
             </div>
             <h3 className="text-white font-semibold mb-2">Email</h3>
             <p className="text-primary-500">locatelli.r@protonmail.ch</p>
