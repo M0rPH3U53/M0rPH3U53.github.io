@@ -30,7 +30,9 @@ const Contact: React.FC = () => {
           </div>
           
           <div className="contact-item">
-            <div className="contact-icon">📍</div>
+            <div className="contact-icon">
+            <img src="/map.png" alt="Localisation Contact Icon" />
+            </div>
             <h3 className="text-white font-semibold mb-2">Localisation</h3>
             <p className="text-primary-500">Paris, France</p>
           </div>
