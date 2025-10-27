@@ -8,14 +8,19 @@ const Contact: React.FC = () => {
           <h2>Contact</h2>
         </div>
         
+        
         <div className="contact-info">
           <div className="contact-item">
             <div className="contact-icon">
             <img src="/proton.svg" alt="Email Contact Icon" />
             </div>
             <h3 className="text-white font-semibold mb-2">Email</h3>
-            <p className="text-primary-500">locatelli.r@protonmail.ch</p>
-          </div>
+            <p className="text-primary-500">
+              <a href="mailto:locatelli.r@protonmail.ch" className="text-primary-500">
+                locatelli.r@protonmail.ch
+              </a>
+           </p>
+        </div>
           
           <div className="contact-item">
             <div className="contact-icon">
