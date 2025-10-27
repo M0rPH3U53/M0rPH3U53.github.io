@@ -47,7 +47,7 @@ const About: React.FC = () => {
           </div>
           
           <div>
-            <h3 className="text-2xl font-semibold text-primary-500 mb-4">Competences</h3>
+            <h3 className="text-2xl font-semibold text-primary-500 mb-4">Bagage Techniques</h3>
             <div className="space-y-3">
               {skills.map((skill, index) => (
                 <div key={index} className="skill-item">
