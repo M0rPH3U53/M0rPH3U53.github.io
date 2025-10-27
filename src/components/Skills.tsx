@@ -3,7 +3,7 @@ import React from 'react';
 const Skills: React.FC = () => {
   const technicalSkills = [
     {
-      category: 'Outils de Pentesting',
+      category: 'Outils de Pentest',
       icon: '🧰',
       skills: [
         { name: 'Metasploit',level: 'Avancé', icon: '🛡️' },
@@ -59,7 +59,7 @@ const Skills: React.FC = () => {
     <section id="skills" className="section">
       <div className="container">
         <div className="section-title">
-          <h2>Compétences Techniques</h2>
+          <h2>Compétences</h2>
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
