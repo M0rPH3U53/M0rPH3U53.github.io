@@ -59,7 +59,7 @@ const Skills: React.FC = () => {
     <section id="skills" className="section">
       <div className="container">
         <div className="section-title">
-          <h2>Bagage Techniques</h2>
+          <h2>Competences Techniques</h2>
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
