@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
         <hr className="border-none h-px bg-dark-200 my-6" />
         
         <p className="text-dark-50 text-sm mb-2">
-          © {new Date().getFullYear()} Romain Locatelli - Expert en Cybersécurité. Tous droits réservés.
+          © {new Date().getFullYear()} Romain Locatelli - Ingenieur en Cybersécurité. Tous droits réservés.
         </p>
         
         <p className="text-dark-50 text-xs italic">
