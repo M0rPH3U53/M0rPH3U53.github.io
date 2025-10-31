@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const Hero: React.FC = () => {
   const [displayText, setDisplayText] = useState('');
-  const fullText = 'Ingenieur en Cybersécurité';
+  const fullText = 'Ingénieur en Cybersécurité';
   
   useEffect(() => {
     let index = 0;
