@@ -33,7 +33,7 @@ const About: React.FC = () => {
           <div>
             <h3 className="text-2xl font-semibold text-primary-500 mb-4">Mon parcours</h3>
             <p className="text-dark-100 mb-4">
-              Après 9 ans dans le monde du travail, je me suis tourné vers une reconversion professionnelle dans la cybersécurité.
+              Après 9 ans dans le monde du travail en tant que technicien de maintenance dans les batiments, je me suis tourné vers une reconversion professionnelle dans la cybersécurité.
             </p>          
             <h3 className="text-2xl font-semibold text-primary-500 mb-4 mt-8">Diplomes</h3>
             <ul className="space-y-2">
