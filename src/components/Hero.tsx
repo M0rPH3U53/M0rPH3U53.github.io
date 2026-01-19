@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
             <span className="code-effect">$</span> {displayText}
           </p>
           <p className="text-dark-100 max-w-2xl mx-auto mb-8">
-            Actuellement en derniére année de Master Cybersécurité
+            A la recherche d'un poste de Pentester
           </p>
           <div className="hero-buttons">
             <button 
