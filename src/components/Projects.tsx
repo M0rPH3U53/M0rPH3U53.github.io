@@ -65,12 +65,12 @@ const Projects: React.FC = () => {
         
         <div className="text-center mt-12">
           <a 
-            href="https://github.com/M0rPH3U53" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="btn btn-outline"
+           // href="https://github.com/M0rPH3U53" 
+           // target="_blank" 
+           // rel="noopener noreferrer"
+           // className="btn btn-outline"
           >
-            Voir sur GitHub
+            
           </a>
         </div>
       </div>
