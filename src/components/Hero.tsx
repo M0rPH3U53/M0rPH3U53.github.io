@@ -40,7 +40,7 @@ const Hero: React.FC = () => {
               className="btn btn-primary"
               onClick={() => scrollToSection('skills')}
             >
-              Voir mes compétences
+              Compétences
             </button>
             <button 
               className="btn btn-outline"
