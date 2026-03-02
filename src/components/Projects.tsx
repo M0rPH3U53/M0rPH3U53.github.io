@@ -26,6 +26,14 @@ const Projects: React.FC = () => {
       repoLink: 'https://github.com/M0rPH3U53/fullEx',
       codeLink: 'https://github.com/M0rPH3U53/fullEx/blob/main/fullEx.sh'
     },
+    {
+      title: 'SnAff',
+      description: 'Cherche les services du protocole Bonjour/ZeroConf sur le réseau & les enregistres dans un fichier',
+      tags: ['avahi-daemon', 'avahi-browser'],
+      image: '/SnAff.png',
+      repoLink: 'https://github.com/M0rPH3U53/SnAff',
+      codeLink: 'https://github.com/M0rPH3U53/fullEx/blob/main//SnAff.sh'
+    }
   ];
 
   return (
