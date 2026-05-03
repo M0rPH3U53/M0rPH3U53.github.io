@@ -12,7 +12,7 @@ const Projects: React.FC = () => {
     },
     {
       title: 'Massap',
-      description: 'Scanners de port avec génération de rapport nmap',
+      description: 'Scanners de ports avec génération de rapport nmap',
       tags: ['Masscan', 'Nmap',],
       image: '/massap.jpeg',
       repoLink: 'https://github.com/M0rPH3U53/Massap',
@@ -21,7 +21,7 @@ const Projects: React.FC = () => {
     {
       title: 'fullEx',
       description: 'Outils pour l"exploitation d"élévation de privilège Linux',
-      tags: ['LinPeas', 'Binaires', 'LaZagne'],
+      tags: ['LinPeas', 'Binaires', 'LaZagne','DumpCreds','Pspy'],
       image: '/fullex.png',
       repoLink: 'https://github.com/M0rPH3U53/fullEx',
       codeLink: 'https://github.com/M0rPH3U53/fullEx/blob/main/fullEx.sh'
