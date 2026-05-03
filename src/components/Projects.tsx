@@ -13,7 +13,7 @@ const Projects: React.FC = () => {
     {
       title: 'Massap',
       description: 'Scanners de ports avec génération de rapport nmap',
-      tags: ['Masscan', 'Nmap',],
+      tags: ['Masscan', 'Nmap'],
       image: '/massap.jpeg',
       repoLink: 'https://github.com/M0rPH3U53/Massap',
       codeLink: 'https://github.com/M0rPH3U53/Massap/blob/main/massap.sh'
