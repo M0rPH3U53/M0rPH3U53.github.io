@@ -20,7 +20,7 @@ const Projects: React.FC = () => {
     },
     {
       title: 'fullEx',
-      description: "Boite a outils pour l'exploitation d'élévation de privilège Linux",
+      description: 'Boite a outils pour l"exploitation d"élévation de privilège Linux',
       tags: ['LinPeas', 'Exploits', 'LaZagne','DumpCreds','Pspy'],
       image: '/fullex.png',
       repoLink: 'https://github.com/M0rPH3U53/fullEx',
