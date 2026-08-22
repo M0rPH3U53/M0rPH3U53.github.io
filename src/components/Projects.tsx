@@ -25,6 +25,14 @@ const Projects: React.FC = () => {
       image: '/fullex.png',
       repoLink: 'https://github.com/M0rPH3U53/fullEx',
       codeLink: 'https://github.com/M0rPH3U53/fullEx/blob/main/fullEx.sh'
+    },
+     {
+      title: 'ShoC',
+      description: "Shodan en CLI basé sur leurs API",
+      tags: ['Curl', 'Miller', 'Dasel', 'Nmap','Metasploit'],
+      image: '/ShoC.jpeg',
+      repoLink: 'https://github.com/M0rPH3U53/ShoC',
+      codeLink: 'https://github.com/M0rPH3U53/ShoC/blob/main/ShoC.sh'
     }
   ];
 
