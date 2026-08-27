@@ -29,7 +29,7 @@ const Projects: React.FC = () => {
      {
       title: 'ShoC',
       description: "Shodan en CLI basé sur leurs API",
-      tags: ['Curl', 'JQ', 'Dasel', 'Nmap','Metasploit'],
+      tags: ['Curl', 'JQ', 'API', 'Nmap','Metasploit'],
       image: '/ShoC.jpeg',
       repoLink: 'https://github.com/M0rPH3U53/ShoC',
       codeLink: 'https://github.com/M0rPH3U53/ShoC/blob/main/ShoC.sh'
