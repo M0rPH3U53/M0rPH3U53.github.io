@@ -26,7 +26,7 @@ const Experience: React.FC = () => {
     <section id="experience" className="section">
       <div className="container">
         <div className="section-title">
-          <h2>Expérience Professionnelle</h2>
+          <h2>Expériences Professionnelles</h2>
         </div>
         
         <div className="timeline">
