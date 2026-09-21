@@ -4,7 +4,7 @@ const Projects: React.FC = () => {
   const projects = [
     {
       title: 'metaWeb',
-      description: 'Scanners de vulnérabilité web automatisé qui génère des rapports chacun',
+      description: 'Scanners de vulnérabilité web qui génèrent un rapport par outils',
       tags: ['Nuclei', 'Nikto', 'Wapiti', 'Skipfish', 'ZAP'],
       image: '/metaweb.jpeg',
       repoLink: 'https://github.com/M0rPH3U53/metaWeb',
@@ -12,7 +12,7 @@ const Projects: React.FC = () => {
     },
     {
       title: 'Massap',
-      description: 'Scanners de ports avec génération de rapport nmap',
+      description: 'Scanners de port avec génération de rapport Nmap',
       tags: ['Masscan', 'Nmap'],
       image: '/massap.jpeg',
       repoLink: 'https://github.com/M0rPH3U53/Massap',
@@ -20,7 +20,7 @@ const Projects: React.FC = () => {
     },
     {
       title: 'fullEx',
-      description: "Boite a outils pour l'exploitation d'élévation de privilège Linux",
+      description: "Boîte à outils pour l'exploitation d'élévation de privilèges Linux",
       tags: ['LinPeas', 'Exploits', 'LaZagne','DumpCreds','Pspy'],
       image: '/fullex.png',
       repoLink: 'https://github.com/M0rPH3U53/fullEx',
