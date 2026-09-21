@@ -52,7 +52,7 @@ const Header: React.FC = () => {
               className="nav-link"
               onClick={(e) => { e.preventDefault(); scrollToSection('experience'); }}
             >
-              Expérience
+              Expériences
             </a>
           </li>
           <li>
