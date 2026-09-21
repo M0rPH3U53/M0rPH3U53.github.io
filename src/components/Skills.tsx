@@ -17,7 +17,7 @@ const Skills: React.FC = () => {
       ]
     },
     {
-      category: 'Langages & Scripts',
+      category: 'Languages & Scripts',
       icon: '💻',
       skills: [
         { name: 'Python', level: 'Intermédiaire', icon: '🐍' },
